@@ -16,7 +16,6 @@
       <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,300&family=Roboto+Slab&display=swap" rel="stylesheet">
   </head>
     <body>
-      <div>
       <nav class="navbar sticky-top navbar-expand-md navbar-light">
         <!-- Heart Icon -->
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
@@ -26,7 +25,6 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      </div>
       <div class="collapse navbar-collapse" id="navbarDropdown">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-family: DM Mono, monospace;">
       <li class="nav-item">
@@ -43,15 +41,14 @@
       </svg></button>
     </form>
     </div>
-</div>
-  </div>
+ </head>
   </nav>
   <div class="container">
       <h2 class="display-5">Welcome!</h2>
       <p id="about">Hounds Of Love is an online community for fans of English singer, songwriter, musician, dancer, and record producer Kate Bush. </p>
-      <h1 class="display-3" >Kate Bush</h1>
+      <h1 class="display-3">Kate Bush</h1>
       <div class="container col-xl-10">
-        <img class="img-fluid" src="images/pose.jpg" alt="Kate Bush posing with hands.">
+        <img class="img-fluid" src="images/pose.jpg" alt="Kate Bush posing in a photograph.">
       </div>
 
       <h2 class="display-5">Overview</h2>
@@ -169,14 +166,7 @@
 
       <!-- JS-->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-      <script>
-        $(function () {
-            $(document).scroll(function () {
-                var $nav = $("#mainNavbar");
-                $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
-            });
-        });
-    </script>
+  
   </div>
 </body>
 </html>
