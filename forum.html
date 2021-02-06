@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum</title>
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+      <!-- CSS -->
+      <link rel="stylesheet" href="custom.css">
+      <!-- Google Fonts -->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@1,300&family=Roboto+Slab&display=swap" rel="stylesheet">
+  </head>
+  
+    <body>
+      <nav class="navbar sticky-top navbar-expand-md navbar-light">
+        <!-- Heart Icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+        </svg>
+          <a id="brand" class="navbar-brand" href="home.html" style="font-family:DM Mono,monospace; letter-spacing:-2px; word-spacing:-4px;">Hounds Of Love</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarDropdown">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-family: DM Mono, monospace; text-align: center;">
+        <li class="nav-item">
+          <a class="nav-link" href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="store.html">Store</a>
+        </li>
+      </ul>
+      <form class="d-flex ml-auto">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-secondary bg-light" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg></button>
+      </form>
+      </div>
+  </div>
+  </nav>
+<div class="container col-xl-8">
+
+  <h2>You must login to participate in the forum.</h2>
+  
+  <!-- Form -->
+  <div class="container col-xl-8">
+    <form id="login" action="#">
+      <div class="row">
+      <div id="username" class="form-group col-xl-4">
+        <input type="text" class="form-control" id="username" placeholder="Username">
+      </div>
+      <div id="password" class="form-group col-xl-4">
+        <input type="password" class="form-control" id="password" placeholder="Password">
+      </div>
+      <div class="form-group col-xl-2">
+      <button id="login" class="btn btn-outline-secondary">Login</button>
+    </div>
+    </div>
+    </form>
+    <p><a href="#">Forgot username/password?</a></p>
+    <h3 style="font-family: monospace;">Not a member?  Sign up <a href="#">here</a>.</h3>
+  </div>
+  <br>
+
+<div class="container col-xl-10">
+<div class="btn-group" role="group" aria-label="first menu button">
+  <button type="button" class="btn btn-outline-secondary">Active</button>
+  <button type="button" class="btn btn-outline-secondary">Most Popular</button>
+  <button type="button" class="btn btn-outline-secondary">Archived</button>
+</div>
+
+
+<section>
+  <span>
+    Last post by 
+    <a href="#" style="font-style: italic;">
+      babooshka92
+    </a>
+    2-29-2021 13:45
+  </span>
+  <h2 class="span">The Ultimate Album Tier List</h2>
+  <button class="btn btn-outline-secondary">View</button>
+  <hr>
+</section>
+<section>
+  <span>
+    Last post by 
+    <a href="#" style="font-style: italic;">
+      &dreamofsheep
+    </a>
+    2-24-2021 16:08
+  </span>
+  <h2 class="span">Hidden Gems</h2>
+  <button class="btn btn-outline-secondary">View</button>
+  <hr>
+</section>
+<section>
+  <span>
+    Last post by 
+    <a href="#" style="font-style: italic;">
+      itsme_cathy730
+    </a>
+    2-17-2021 08:22
+  </span>
+  <h2 class="span">Any Vinyl Owners?</h2>
+  <button class="btn btn-outline-secondary">View</button>
+  <hr>
+</section>
+<p>1 of 3 <a href="#">Next >></a></p>
+</div>
+
+</div>
+<footer>
+  <p>&#169;2021 Hounds Of Love</p>
+</footer>
+</div>
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</body>

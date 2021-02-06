@@ -1,0 +1,199 @@
+body {
+  background: linear-gradient(to right, #6247aa, #b73da4, #f896d8, #ebe0f5);
+  color: white;
+}
+
+#brand,
+svg {
+  font-family: DM Mono, monospace;
+  word-spacing: -10px;
+  color: #edc9ff;
+}
+
+.nav-link {
+  font-family: DM Mono, monospace;
+  font-size: 18px;
+  text-align: center;
+  color: indigo;
+}
+
+img {
+  width: 490px;
+  height: 500px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-family: DM Mono, monospace;
+  color: #edc9ff;
+}
+
+h2 {
+  font-family: DM Mono, monospace;
+  margin-top: 20px;
+}
+
+h3 {
+  font-family: DM Mono, monospace;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  font-family: Roboto Slab, serif;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.3);
+  filter: saturate(100%) contrast(70%) brightness(125%);
+}
+
+th {
+  color: white;
+}
+
+td {
+  vertical-align: center;
+  text-align: center;
+  font-family: monospace;
+  font-size: 14px;
+  font-style: italic;
+}
+
+ul {
+  font-family: monospace;
+  font-style: italic;
+  font-size: 14px;
+  justify-content: center;
+}
+
+a {
+  color: #f896d8;
+}
+
+a:hover {
+  color: white;
+}
+
+p {
+  padding: 5px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+#about {
+  font-family: monospace;
+  font-size: 18px;
+}
+
+img {
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+}
+
+#promo {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn {
+  font-family: monospace;
+  font-size: 14px;
+  background-color: #ebe0f5;
+}
+
+.btn:hover {
+  background-color: #b73da4;
+}
+
+.btn-group {
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+form {
+  align-items: flex-start;
+  align-content: space-between;
+}
+
+input {
+  background-color: #edc9ff;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-top: 5px;
+}
+
+section {
+  margin-top: -10px;
+  margin-bottom: -20px;
+}
+
+span {
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.span {
+  padding-top: -20px;
+  margin-top: -5px;
+  color: #edc9ff;
+}
+
+img.carousel {
+  width: 415px;
+  height: 610px;
+}
+
+.img-thumbnail {
+  height: 200px;
+  width: 200px;
+}
+
+span.sale {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}
+
+.blurb {
+  background-color: #ebe0f5d7;
+  color: gray;
+  width: fit-content;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  padding: 5px -2px;
+  align-items: center;
+  word-spacing: -4px;
+}
+
+.format {
+  color: fuchsia;
+}
+
+.add-to-cart {
+  color: black;
+  padding-left: 5px;
+}
+
+.bi {
+  color: fuchsia;
+}
+
+.navbar.scrolled {
+  background: #6247aa;
+  transition: background 500ms;
+}
+
+footer {
+  font-family: monospace;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* color:#edc9ff */
