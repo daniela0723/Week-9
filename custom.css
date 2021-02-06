@@ -10,6 +10,11 @@ svg {
   color: #edc9ff;
 }
 
+navbar {
+  background-color: rgba(255, 255, 255, 0.3);
+  filter: saturate(100%) contrast(70%) brightness(125%);
+}
+
 .nav-link {
   font-family: DM Mono, monospace;
   font-size: 18px;
@@ -185,15 +190,8 @@ span.sale {
   color: fuchsia;
 }
 
-.navbar.scrolled {
-  background: #6247aa;
-  transition: background 500ms;
-}
-
 footer {
   font-family: monospace;
   font-size: 14px;
   text-align: center;
 }
-
-/* color:#edc9ff */
